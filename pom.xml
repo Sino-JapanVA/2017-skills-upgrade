@@ -25,5 +25,6 @@
   <modules>
     <module>multi-thread</module>
     <module>spring-basic</module>
+    <module>design-pattern</module>
   </modules>
 </project>
