@@ -3,13 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.hundsun.zeewane</groupId>
+    <groupId>com.zeewane</groupId>
     <artifactId>study</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.hundsun.zeewane</groupId>
   <artifactId>multi-thread</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>multi-thread</name>
   <url>http://maven.apache.org</url>
   <properties>
