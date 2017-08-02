@@ -8,27 +8,27 @@ package com.hundsun.zeewane.multi.thread.heima.syn;
  */
 public class Test {
 
-    public static void main(String[] args) {
-        new Thread(new thread()).start();
-    }
+	public static void main(String[] args) {
+		new Thread(new thread()).start();
+	}
 
-    static class thread implements Runnable {
-        public void run() {
-            int index = 10;
-            while (true) {
+	static class thread implements Runnable {
+		public void run() {
+			int index = 10;
+			while (true) {
 
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e1) {
-                    e1.printStackTrace();
-                }
-                index--;
-                try {
-                    System.out.println(100 / index);
-                } catch (Exception e) {
-                    System.out.println("抓住一个异常" + e);
-                }
-            }
-        }
-    }
+				try {
+					Thread.sleep(100);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+				index--;
+				try {
+					System.out.println(100 / index);
+				} catch (Exception e) {
+					System.out.println("抓住一个异常" + e);
+				}
+			}
+		}
+	}
 }
