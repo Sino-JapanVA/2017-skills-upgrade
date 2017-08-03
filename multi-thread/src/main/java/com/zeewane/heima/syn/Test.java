@@ -1,4 +1,4 @@
-package com.zeewane.multi.thread.heima.syn;
+package com.zeewane.heima.syn;
 
 /**
  * 成功验证，只要catch住异常，线程不会挂
