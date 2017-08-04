@@ -14,5 +14,10 @@ public class Open_Closed_Principle {
 		
 		ChartDisplay chart2 = new ChartDisplay(new BarChart()); // 柱形图
 		chart2.display();
+		
+		// 假如我新增了折线图，我不需要去动原来的类，我只要自己新写一个LineChart
+		// 不修改原来的代码，达到新增的效果
+		ChartDisplay chart3 = new ChartDisplay(new LineChart());
+		chart3.display();
 	}
 }
