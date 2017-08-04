@@ -8,7 +8,6 @@ package com.zeewane.object_oriented.open_close;
  */
 public class BarChart extends AbstractChart {
 
-	@Override
 	public void display() {
 		System.out.println("柱形图");
 	}

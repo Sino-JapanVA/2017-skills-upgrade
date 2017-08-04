@@ -8,7 +8,6 @@ package com.zeewane.object_oriented.open_close;
  */
 public class PieChart extends AbstractChart {
 
-	@Override
 	public void display() {
 		System.out.println("饼形图");
 	}
