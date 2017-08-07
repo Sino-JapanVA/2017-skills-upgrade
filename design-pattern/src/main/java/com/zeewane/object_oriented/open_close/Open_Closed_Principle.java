@@ -17,6 +17,8 @@ public class Open_Closed_Principle {
 		
 		// 假如我新增了折线图，我不需要去动原来的类，我只要自己新写一个LineChart
 		// 不修改原来的代码，达到新增的效果
+		
+		// 若是之前的做法是怎么样的？在display的时候传入一个参数来指定？
 		ChartDisplay chart3 = new ChartDisplay(new LineChart());
 		chart3.display();
 	}

@@ -11,6 +11,7 @@ public class Liskov_Substitution_Principle {
 	public static void main(String[] args) {
 		EmailSender sender = new EmailSender();
 
+		// sender就公用了
 		sender.send(new NormalCustomer("qizw","qizw123@qq.com"));
 		sender.send(new VIPCustomer("zeewane","zeewane@163.com"));
 

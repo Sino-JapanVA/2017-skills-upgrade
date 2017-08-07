@@ -13,7 +13,7 @@ public class ChartDisplay {
 	private AbstractChart chart;
 
 	/**
-	 * 构造方法
+	 * 构造方法，这边使用抽象类来作为传入参数
 	 * 
 	 * @param chart
 	 */
