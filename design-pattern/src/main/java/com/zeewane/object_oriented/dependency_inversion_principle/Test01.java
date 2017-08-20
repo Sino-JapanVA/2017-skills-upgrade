@@ -1,5 +1,8 @@
 package com.zeewane.object_oriented.dependency_inversion_principle;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * 依赖倒转原则要求我们在程序代码中传递参数时或在关联关系中，尽量引用层次高的抽象层类，
  * 即使用接口和抽象类进行变量类型声明、参数类型声明、方法返回类型声明，
@@ -16,4 +19,14 @@ package com.zeewane.object_oriented.dependency_inversion_principle;
  */
 public class Test01 {
 
+	
+	public static void main(String[] args) {
+		
+		System.out.println(getList());
+		
+	}
+	
+	public static List<String> getList(){
+		return Arrays.asList("hello");
+	}
 }
