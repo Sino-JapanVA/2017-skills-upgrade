@@ -26,5 +26,6 @@
     <module>multi-thread</module>
     <module>spring-basic</module>
     <module>design-pattern</module>
+    <module>netty</module>
   </modules>
 </project>
