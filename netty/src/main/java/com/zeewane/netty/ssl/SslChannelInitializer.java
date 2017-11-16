@@ -33,9 +33,9 @@ public class SslChannelInitializer extends ChannelInitializer<Channel> {
         /*
          * 在大多数情况下,SslHandler 将成为 ChannelPipeline 中的第一个 ChannelHandler 。
          * 这将确保所有其他 ChannelHandler 应用他们的逻辑到数据后加密后才发生,从而确保他们的变化是安全的。
-         * 这个SslHandler我可不可以做点手脚
          */
         
+        
+        // channelHandler可以理解成一个切面，
     }
-
 }

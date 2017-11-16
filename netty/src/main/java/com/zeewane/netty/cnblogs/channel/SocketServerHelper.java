@@ -48,7 +48,7 @@ public class SocketServerHelper {
         keyStore.load(new FileInputStream("D:\\security\\server\\sChat.jks"), "sNetty".toCharArray());
         keyManagerFactory = KeyManagerFactory.getInstance("SunX509");
         keyManagerFactory.init(keyStore,"sNetty".toCharArray());
-        SslContext sslContext = SslContextBuilder.forServer(keyManagerFactory).build();
+        SslContext sslContext = null;//SslContextBuilder.forServer(keyManagerFactory).build();
         b.childHandler(new SslChannelInitializer(sslContext)); 
         b.bind(9912).sync();  
         logger.info("spider server start sucess, listening on port " + 9912 + ".");  

@@ -68,7 +68,7 @@ public class SocketClientHelper {
                 "cNetty".toCharArray());
             tf = TrustManagerFactory.getInstance("SunX509");
             tf.init(keyStore);
-            SslContext sslContext = SslContextBuilder.forClient().trustManager(tf).build();
+            SslContext sslContext = null;//SslContextBuilder.forClient().trustManager(tf).build();
             b.handler(new SslChannelInitializer(sslContext));
             return b;
         } catch (Exception e) {

@@ -23,6 +23,15 @@
 			<version>5.0.0.Alpha2</version>
 		</dependency>
 
+
+		<!-- demo里用到了spring core里的包 -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.3.4.RELEASE</version>
+		</dependency>
+
+
 		<!-- 引入日志 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>

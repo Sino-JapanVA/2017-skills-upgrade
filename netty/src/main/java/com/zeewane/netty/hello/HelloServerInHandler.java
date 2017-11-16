@@ -8,7 +8,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
 //该handler是InboundHandler类型  
-public class HelloServerInHandler extends ChannelInboundHandlerAdapter { // 这么骚，这个类已经被弃用了
+public class HelloServerInHandler extends ChannelInboundHandlerAdapter {
     private static Logger logger = LoggerFactory.getLogger(HelloServerInHandler.class);
 
     @Override
