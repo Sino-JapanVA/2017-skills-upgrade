@@ -32,12 +32,15 @@ public class GmSslHandler extends SslHandler {
 
     public GmSslHandler(SSLEngine engine) {
         super(engine);
-        // TODO Auto-generated constructor stub
+
+        // 这个引擎是不可能去改的，还是ssl的engine
+
     }
 
     public GmSslHandler(SSLEngine engine, boolean startTls) {
         super(engine, startTls);
-        // TODO Auto-generated constructor stub
+        
+        
     }
 
     @Override

@@ -22,6 +22,12 @@ public class GmSslChannelInitializer extends ChannelInitializer<Channel> {
     private final SslContext context;
     private final boolean    startTls;
 
+
+    // 下面这个构造方法还不能用
+    /*public GmSslChannelInitializer(SslContext context) {
+        this.context = context;
+    }*/
+    
     public GmSslChannelInitializer(SslContext context, boolean client, boolean startTls) { //1
         this.context = context;
         this.startTls = startTls;
